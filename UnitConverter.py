@@ -10,7 +10,11 @@ def kilo_pound(kilos):
 	pounds = kilos * convertion_rate
 	return pounds
 
+print ("\n")
 pounds = int(input("Enter Pounds: "))
+print ("\n")
 print (pound_kilo(pounds))
+print ("\n\n")
 kilos = int(input("Enter Kilos: "))
+print ("\n")
 print (kilo_pound(kilos))
