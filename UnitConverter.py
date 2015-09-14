@@ -15,7 +15,7 @@ if __name__ == '__main__':
     if answer == 'pounds to kilos':
         pounds = int(input("\nEnter Pounds: "))
         print (pound_kilo(pounds))
-    if answer == 'kilos to pounds':
+    elif answer == 'kilos to pounds':
         kilos = int(input("\nEnter Kilos: "))
         print (kilo_pound(kilos))
     else:
