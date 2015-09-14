@@ -11,11 +11,14 @@ def kilo_pound(kilos):
     return pounds
 
 if __name__ == '__main__':
-    print ("\n")
-    pounds = int(input("Enter Pounds: "))
-    print ("\n")
-    print (pound_kilo(pounds))
-    print ("\n\n")
-    kilos = int(input("Enter Kilos: "))
-    print ("\n")
-    print (kilo_pound(kilos))
+    answer = input("Would you like to convert pounds to kilos or kilos to pounds?")
+    if answer == 'pounds to kilos':
+        print ("\n")
+        pounds = int(input("Enter Pounds: "))
+        print ("\n")
+        print (pound_kilo(pounds))
+    if answer == 'kilos to pounds':
+        print ("\n\n")
+        kilos = int(input("Enter Kilos: "))
+        print ("\n")
+        print (kilo_pound(kilos))
